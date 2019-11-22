@@ -41,13 +41,21 @@ On your command prompt, you'll initialize the game.
 
 - After initializing, you'll be prompted to type two names. Any sequence of characters works. First name corresponds to player 1 and gets first turn -'X'. Player two gets the second name and turn -'O'.
 - After typing two names, the board will be presented and player 1 will be prompted to type a valid move.
-![](https://files.slack.com/files-pri/T47CT8XPG-FQTPU9T28/image.png)
+![](./img/1.png)
 - If you try an invalid move, you'll be prompted to type it again. Numbers from 1 to 9 are the **only** valid moves.
-![](https://files.slack.com/files-pri/T47CT8XPG-FQGPP9D8T/image.png)
+![](./img/2.png)
 - The win condition is to line up three of your symbols -'X' for player 1, 'O' for player 2- either vertically, horizontally or diagonally.
-![](https://files.slack.com/files-pri/T47CT8XPG-FQFEF350S/image.png)
+![](./img/3.png)
 - If no player has won and no available spots remain, the game is a tie:
-![](https://files.slack.com/files-pri/T47CT8XPG-FQWE9TMU6/image.png)
+![](./img/4.png)
+
+## Testing
+
+Several Rspec tests were also implemented. You can run them -given previous installation of rspec- typing:
+```bash
+rspec ./spec/spec_helper.rb
+```
+On the root directory.
 
 ### License
 This software is registered under the No-License License c:
